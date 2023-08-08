@@ -1,5 +1,5 @@
---- app.go	2023-08-07 21:07:21.939069312 -0400
-+++ app_patched.go	2023-08-07 21:06:32.726425788 -0400
+--- hscontrol/app.go	2023-08-07 21:07:21.939069312 -0400
++++ hscontrol/app-1480.go	2023-08-07 21:06:32.726425788 -0400
 @@ -760,7 +760,6 @@
  				// Stop listening (and unlink the socket if unix type):
  				socketListener.Close()
