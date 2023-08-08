@@ -60,7 +60,7 @@ Requires: systemd
 
 %prep
 %goprep %{?with_vendor:-k}
-%autopatch -p1
+%autopatch -p0
 
 
 %build
