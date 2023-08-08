@@ -122,8 +122,8 @@ install -p -D -m 0644 %{SOURCE4} %{buildroot}%{_sysconfdir}/headscale/config.yam
 
 %changelog
 * Mon Aug 07 2023 Cody Robertson <cody@almalinux.org> - 0.22.3-3
-- Add Fix hangs on SIGTERM patch (#1480)
-- Fix incorrect day in changelog
+- Add modified patch (#1480)
+- Fix incorrect day in changelog causing warnings
 
 * Wed Jun 07 2023 Dusty Mabe <dusty@dustymabe.com> - 0.22.3-2
 - Add Requires on systemd
